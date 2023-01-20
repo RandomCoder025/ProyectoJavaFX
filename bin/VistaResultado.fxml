@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0"
+	prefWidth="1121.0" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="controladores.ControladorResultado">
+	<children>
+		<ImageView fitHeight="634.0" fitWidth="1127.0"
+			layoutX="-3.0" pickOnBounds="true">
+			<image>
+				<Image url="@img/fondo2.jpg" />
+			</image>
+		</ImageView>
+		<Button fx:id="btnVolverInicio" layoutX="467.0" layoutY="535.0"
+			mnemonicParsing="false" onAction="#rehacerTest" prefHeight="64.0"
+			prefWidth="204.0" text="REHACER TEST" textAlignment="CENTER">
+			<font>
+				<Font name="Constantia Bold" size="22.0" />
+			</font>
+		</Button>
+		<Label fx:id="titleTXT" layoutX="218.0" layoutY="54.0"
+			prefHeight="76.0" prefWidth="707.0"
+			text="PERTENECES A LA GRANDIOSA CLASE DE:">
+			<font>
+				<Font name="Constantia Bold" size="34.0" />
+			</font>
+		</Label>
+		<ImageView fx:id="imgClase" fitHeight="240.0"
+			fitWidth="335.0" layoutX="149.0" layoutY="213.0" pickOnBounds="true"
+			preserveRatio="true" />
+		<Text fx:id="txtInfoNombre" layoutX="705.0" layoutY="217.0"
+			strokeType="OUTSIDE" strokeWidth="0.0" text="Text"
+			wrappingWidth="293.6708984375">
+			<font>
+				<Font name="System Bold" size="28.0" />
+			</font>
+		</Text>
+		<TextFlow fx:id="txtInfoClase" layoutX="688.0"
+			layoutY="287.0" prefHeight="200.0" prefWidth="264.0" />
+	</children>
+</AnchorPane>

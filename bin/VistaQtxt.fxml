@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0"
+	prefWidth="1121.0" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="controladores.ControladorQtxt">
+	<children>
+		<ImageView fitHeight="634.0" fitWidth="1127.0"
+			layoutX="-3.0" pickOnBounds="true">
+			<image>
+				<Image url="@img/fondo2.jpg" />
+			</image>
+		</ImageView>
+		<Button fx:id="btnSiguienteQ" layoutX="467.0" layoutY="535.0"
+			mnemonicParsing="false" onAction="#siguienteQ" prefHeight="64.0"
+			prefWidth="204.0" text="SIGUIENTE" textAlignment="CENTER">
+			<font>
+				<Font name="Constantia Bold" size="22.0" />
+			</font>
+		</Button>
+		<Label fx:id="preguntatexto" alignment="CENTER" layoutX="17.0"
+			layoutY="54.0" maxWidth="1.7976931348623157E308" prefHeight="76.0"
+			prefWidth="1085.0"
+			text="Renaces y te da a elegir, ¿a qué te dedicas?">
+			<font>
+				<Font name="Constantia Bold" size="30.0" />
+			</font>
+		</Label>
+		<RadioButton fx:id="opcionA" layoutX="191.0"
+			layoutY="173.0" maxWidth="1.7976931348623157E308"
+			mnemonicParsing="false" prefHeight="40.0" prefWidth="874.0"
+			text="a) Salvé al perro del archimago, ¡me estaba pidiendo ayuda! ">
+			<font>
+				<Font name="Berlin Sans FB Demi Bold" size="30.0" />
+			</font>
+		</RadioButton>
+		<RadioButton fx:id="opcionB" layoutX="190.0"
+			layoutY="259.0" maxWidth="1.7976931348623157E308"
+			mnemonicParsing="false" prefHeight="40.0" prefWidth="874.0"
+			text="b) Me atropello a mí misma">
+			<font>
+				<Font name="Berlin Sans FB Demi Bold" size="30.0" />
+			</font>
+		</RadioButton>
+		<RadioButton fx:id="opcionC" layoutX="191.0"
+			layoutY="343.0" maxWidth="1.7976931348623157E308"
+			mnemonicParsing="false" prefHeight="40.0" prefWidth="874.0"
+			text="c) No renazco">
+			<font>
+				<Font name="Berlin Sans FB Demi Bold" size="30.0" />
+			</font>
+		</RadioButton>
+		<RadioButton fx:id="opcionD" layoutX="191.0"
+			layoutY="426.0" maxWidth="1.7976931348623157E308"
+			mnemonicParsing="false" prefHeight="40.0" prefWidth="874.0"
+			text="d) Morirme">
+			<font>
+				<Font name="Berlin Sans FB Demi Bold" size="30.0" />
+			</font>
+		</RadioButton>
+	</children>
+</AnchorPane>
